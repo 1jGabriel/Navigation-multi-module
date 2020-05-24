@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_feature_one"
+        android:icon="@drawable/feature_one_icon"
+        android:title="Feature A" />
+    <item
+        android:id="@+id/nav_feature_two"
+        android:icon="@drawable/feature_two_icon"
+        android:title="Feature B" />
+    <item
+        android:id="@+id/nav_feature_three"
+        android:icon="@drawable/feature_three_icon"
+        android:title="Feature C" />
+</menu>

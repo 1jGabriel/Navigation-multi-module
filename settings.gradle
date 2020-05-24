@@ -1,0 +1,6 @@
+rootProject.name='navigation'
+include ':app'
+include ':core'
+include ':featureone'
+include ':featuretwo'
+include ':featurethree'
