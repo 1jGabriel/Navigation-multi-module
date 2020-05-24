@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_feature_two"
+    app:startDestination="@id/fragment_c">
+
+    <fragment
+        android:id="@+id/fragment_c"
+        android:name="io.jgabriel.featuretwo.FragmentC">
+
+        <action
+            android:id="@+id/action_go_to_d"
+            app:destination="@+id/fragment_d"
+            app:popUpTo="@+id/fragment_c" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_d"
+        android:name="io.jgabriel.featuretwo.FragmentD">
+        <deepLink app:uri="myApp://fragmentD" />
+    </fragment>
+
+</navigation>
